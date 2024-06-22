@@ -73,17 +73,17 @@ const Navbar = () => {
   const {data:session} = useSession();
 
   return (
-    <nav id="top" className="sticky w-full h-20 md:h-24 mx-auto md:px-12 md:flex md:justify-between md:items-center bg-white  border-b-2 border-slate-300 shadow-lg z-20 ">
+    <nav id="top" className="sticky w-full h-16 md:h-[70px] mx-auto md:px-12 md:flex md:justify-between md:items-center bg-white  border-b-2 border-slate-300 shadow-lg z-20 ">
       <div className="flex justify-between items-center mt-3 md:mt-0">
         <div className="flex items-center mx-2 md:mx-0">
           <Image
             src="/images/Logo.png"
             alt="logo"
-            className="cursor-pointer inline h-12 w-12 md:h-16 md:w-16"
-            width={65}
-            height={25}
+            className="cursor-pointer inline h-10 w-12 md:h-12 md:w-12"
+            width={48}
+            height={40}
           />
-          <span className="text-3xl mx-1 md:text-4xl font-bold">Nexus</span>
+          <span className="text-3xl mx-1 md:text-3xl font-bold">Nexus</span>
         </div>
         <span className="md:hidden block mx-4" onClick={()=>setOpen(!open)}>
             {open ? <Image
