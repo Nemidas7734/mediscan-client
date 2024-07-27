@@ -99,7 +99,7 @@ const Navbar = () => {
             />}   
         </span>
       </div>
-      <ul className={`flex flex-col justify-between items-center gap-6 bg-white w-full left-0 z-[-1] absolute md:z-auto md:static md:flex md:w-auto md:flex-row md:items-center md:justify-between md:py-0 py-4 md:pl-0  md:gap-12 md:opacity-100 transition-all ease-in duration-500 ${open ? 'top-20 opacity-100':'top-[-400px] opacity-0'}`}>
+      <ul className={`flex flex-col justify-between items-center gap-6 bg-white w-full left-0 z-[-1] absolute md:z-auto md:static md:flex md:w-auto md:flex-row md:items-center md:justify-between md:py-0 py-4 md:pl-0  md:gap-12 md:opacity-100 transition-all ease-in duration-500 ${open ? 'top-[60px] opacity-100':'top-[-400px] opacity-0'}`}>
         <li className="text-base border border-hidden rounded-xl w-20 md:w-auto font-semi-bold hover:text-sky-500 transition duration-300">
           <Link onClick={handleClick} className=" " href="/">
             Home
